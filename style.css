@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 10px;
+    margin-left: 300px;
+    margin-right: 370px;
+    background-color: rgb(2, 49, 49);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    font-size: larger;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    border-radius: 80px;
+}
+.aside{
+  
+    background-color: rgb(232, 206, 250);
+    padding: 30px;
+    color: rgb(31, 27, 22);
+}
+article h3{
+    color: rgb(233, 142, 15);
+}
+.main-body{
+    background-color: rgb(210, 235, 170);
+    padding-left: 10px;
+    padding-right: 70px;
+}
+.experience{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.course{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.certificate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icons{
+height: 15px;
+width: 15px;
+}
+container h2,h3{
+    color: brown;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+container h5{
+    color: rgb(133, 133, 240);
+    margin-top: 8px;
+}
+container p{
+    margin-top: 5px;
+}
+.para{
+    text-align: justify;
+}
+article h2{
+    color: rgb(98, 96, 96);
+}
